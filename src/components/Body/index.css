@@ -1,0 +1,36 @@
+.left-nav-bar h1 {
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.content h1 {
+  font-size: 15px;
+}
+
+.right-nav-bar h1 {
+  font-size: 15px;
+}
+
+.body-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0px 5px 0px;
+}
+
+.right-nav-bar,
+.left-nav-bar {
+  background-color: #e2e8f0;
+  width: 25%;
+  text-align: center;
+}
+
+.content {
+  width: 200px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin-left: 7px;
+  margin-right: 5px;
+}
